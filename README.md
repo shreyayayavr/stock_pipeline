@@ -30,4 +30,20 @@ Alpha Vantage API
 
         ↓
    PostgreSQL Database
+
+
+**.env configuration (excluded in gitignore)**
+
+ALPHAVANTAGE_API_KEY = api_key_here
+
+POSTGRES_USER=airflow
+POSTGRES_PASSWORD=airflow
+POSTGRES_DB=stockdb
+
+AIRFLOW__CORE__FERNET_KEY=any_random_string_here
+AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
+AIRFLOW__CORE__LOAD_EXAMPLES=False
+
+
+
    
