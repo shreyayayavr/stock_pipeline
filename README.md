@@ -32,6 +32,8 @@ Alpha Vantage API
    PostgreSQL Database
 
 
+-----
+
 **.env configuration (excluded in gitignore)**
 
 ALPHAVANTAGE_API_KEY = api_key_here
