@@ -1,0 +1,32 @@
+# Secrets & Environment
+.env
+
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+
+# Airflow Logs
+logs/
+airflow.db
+webserver_config.py
+
+# Docker
+*.log
+docker-data/
+postgres_data/
+
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+
+# IDE Files
+.idea/
+.vscode/
+*.iml
