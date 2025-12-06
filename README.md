@@ -14,6 +14,7 @@ Uses Apache Airflow for orchestration and scheduling
 
 Runs completely using Docker Compose with a single command
 
+----
 
 **Data Flow**
 
