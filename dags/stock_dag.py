@@ -192,4 +192,17 @@ with DAG(
         provide_context=True,
     )
 
+
+
+
+
+    create_table_task=PythonOperator(
+        task_id = "create_table"
+        python_callable = fetch_stock_data,
+        provide_contect =False
+
+    )
+
     create_table_task >> fetch_task >> store_task
+
+
